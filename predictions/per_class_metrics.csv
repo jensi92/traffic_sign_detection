@@ -1,0 +1,44 @@
+Class ID,Class Name,AP@0.5,AP@0.5:0.95
+27,Pedestrians,0.9832279988851728,0.0
+30,Beware of ice/snow,0.9700014058678963,0.0
+16,Vehicles over 3.5 metric tons prohibited,0.9645050313123701,0.0
+14,Stop,0.9625421287177562,0.0
+25,Road work,0.9608249811727447,0.0
+31,Wild animals crossing,0.9595154226757086,0.0
+23,Slippery road,0.9593876562962187,0.0
+11,Right-of-way at the next intersection,0.9591171113185719,0.0
+0,Speed limit (20km/h),0.9564353427045876,0.0
+21,Double curve,0.9541783693293213,0.0
+18,General caution,0.9514805389506714,0.0
+1,Speed limit (30km/h),0.9488787506248096,0.0
+28,Children crossing,0.9462723098902226,0.0
+12,Priority road,0.9459958737222148,0.0
+4,Speed limit (70km/h),0.9449314871414891,0.0
+7,Speed limit (100km/h),0.9441944931455251,0.0
+9,No passing,0.9433585432774144,0.0
+13,Yield,0.9415051733556972,0.0
+29,Bicycles crossing,0.9403001175844043,0.0
+35,Ahead only,0.9384704968158895,0.0
+22,Bumpy road,0.9384110727773904,0.0
+26,Traffic signals,0.9379170684610016,0.0
+15,No vehicles,0.9363872503108681,0.0
+40,Roundabout mandatory,0.9348296937711776,0.0
+10,No passing for vehicles over 3.5 metric tons,0.9346163905517265,0.0
+24,Road narrows on the right,0.9333842489953236,0.0
+3,Speed limit (60km/h),0.9324583097091599,0.0
+6,End of speed limit (80km/h),0.9299646616871057,0.0
+8,Speed limit (120km/h),0.9286067639106619,0.0
+5,Speed limit (80km/h),0.9272326748246005,0.0
+2,Speed limit (50km/h),0.9268278549889896,0.0
+41,End of no passing,0.9268162744163831,0.0
+32,End of all speed and passing limits,0.9260685353535354,0.0
+17,No entry,0.9208160378125566,0.0
+42,End of no passing by vehicles over 3.5 metric tons,0.9182388930743182,0.0
+38,Keep right,0.9176708430752338,0.0
+33,Turn right ahead,0.8925395526949348,0.0
+36,Go straight or right,0.8776609296844822,0.0
+19,Dangerous curve to the left,0.8635894029047033,0.0
+20,Dangerous curve to the right,0.8532641735567607,0.0
+37,Go straight or left,0.8494796240946499,0.0
+34,Turn left ahead,0.8428441267316245,0.0
+39,Keep left,0.8375034101534494,0.0

@@ -1,0 +1,64 @@
+# GTSRB Traffic Sign Detection Configuration
+
+# Dataset paths
+data:
+  root_dir: "."
+  train_csv: "Train.csv"
+  test_csv: "Test/GT-final_test.csv"
+  meta_csv: "Meta.csv"
+  train_images: "Train"
+  test_images: "Test"
+  output_dir: "dataset_yolo"
+  
+# Model configuration
+model:
+  architecture: "yolov8n.pt"  # Options: yolov8n.pt, yolov8s.pt, yolov8m.pt, yolov8l.pt, yolov8x.pt
+  img_size: 416
+  num_classes: 43  # GTSRB has 43 traffic sign classes
+  
+# Training hyperparameters
+training:
+  epochs: 10
+  batch_size: 16
+  learning_rate: 0.01
+  optimizer: "SGD"  # SGD or Adam
+  momentum: 0.937
+  weight_decay: 0.0005
+  warmup_epochs: 3
+  patience: 50  # Early stopping patience
+  save_period: 10  # Save checkpoint every N epochs
+  workers: 0  # Disable multi-process data loading
+  device: 0  # Use GPU device index (0, 1, 2, ...) or "cpu"
+  
+# Data augmentation
+augmentation:
+  hsv_h: 0.015
+  hsv_s: 0.7
+  hsv_v: 0.4
+  degrees: 10  # Rotation
+  translate: 0.1
+  scale: 0.5
+  shear: 0.0
+  perspective: 0.0
+  flipud: 0.0
+  fliplr: 0.5
+  mosaic: 1.0
+  mixup: 0.0
+  
+# Validation split
+validation:
+  split_ratio: 0.2  # 80-20 train-val split
+  random_seed: 42
+  
+# Evaluation thresholds
+evaluation:
+  conf_threshold: 0.25  # Confidence threshold for predictions
+  iou_threshold: 0.45   # IoU threshold for NMS
+  max_det: 100          # Maximum detections per image
+  
+# Output directories
+output:
+  runs_dir: "runs"
+  weights_dir: "weights"
+  predictions_dir: "predictions"
+  logs_dir: "logs"
